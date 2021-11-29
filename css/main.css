@@ -1,0 +1,33 @@
+/* set a max-width for horizontal fluid layout and make it centered */
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 650px; /* or 950px */
+}
+
+body {
+  position: relative;
+  padding-bottom: 100px;
+}
+
+#mypic {
+  width:128px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+h1 {
+  text-align: center;
+}
+
+#email {
+  font-weight: bold;
+}
+
+.inline {
+  height: 2em;
+}
